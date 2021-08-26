@@ -1,0 +1,17 @@
+.subscribeButton {
+  border: none;
+  border-radius: 100px;
+  padding: 1.25rem 4rem;
+  
+  color: var(--gray-900);
+  background-color: var(--yellow-500);
+  font-family: Roboto, sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+
+  transition: filter 0.2s;
+
+  &:hover {
+    filter: brightness(0.8);
+  }
+}
